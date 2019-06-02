@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21114" started-at="2019-06-02T12:31:13Z" finished-at="2019-06-02T12:31:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21114" started-at="2019-06-02T12:31:13Z" finished-at="2019-06-02T12:31:34Z">
+      <class name="main.java.SignInTest">
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:main.java.SignInTest@942a29c]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="21056" started-at="2019-06-02T18:01:13Z" finished-at="2019-06-02T18:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+      </class> <!-- main.java.SignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

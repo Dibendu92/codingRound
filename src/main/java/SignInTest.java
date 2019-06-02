@@ -13,6 +13,7 @@ public class SignInTest {
     public void shouldThrowAnErrorIfSignInDetailsAreMissing() {
 
         setDriverPath();
+    	//System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
         driver.get("https://www.cleartrip.com/");
         waitFor(2000);
@@ -45,7 +46,7 @@ public class SignInTest {
         if (PlatformUtil.isLinux()) {
             System.setProperty("webdriver.chrome.driver", "chromedriver_linux");
         }
-    }
-
+ }
 
 }
+
